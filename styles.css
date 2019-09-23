@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    width:93%;
+    margin:auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 10px;
+    border-style:solid black;
+    background-color: tomato;
+    color:white;
+    
+}
+h1{
+    text-align: center;
+}
+span{
+    color:white;
+    background-color: tomato;
+}
+
+.imgContainer{
+    position: relative;
+    width: 100px;
+    height:100px;
+    margin: 0.5rem;
+    border-radius: 50px;
+    overflow:hidden;
+}
+#Moe{
+    position: absolute;
+    max-width: 100%;
+    height:auto;
+    top: 75%;
+    left:99%;
+    transform: scale(3);
+}
+#Larry{
+    position: absolute;
+    max-width: 100%;
+    height:auto;
+    top: 80%;
+    right:90%;
+    transform: scale(3);
+}
+#Curly{
+    position: absolute;
+    max-width: 100%;
+    height:auto;
+    top: 15%;
+    left:5%;
+    transform: scale(3);
+}
